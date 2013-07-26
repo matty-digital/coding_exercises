@@ -1,11 +1,10 @@
-# Coding Exercises
+# Responder Search
 
 ----
 
-These exercises were designed to facilitate professional development and candidate recruitment.  Each exercise directory has a more in-depth readme.  Here's a quick overview:
+This exercise focuses on javascript, ajax, and some php (but you're free to choose a different backend language if you want).  We provided a javascript file that fetches all responders and loads them into the table immediately after the page loads.  We also provided a minimal php class to provide the responder data. 
 
-* **navigation** - A fluid, responsive page header. Technologies: *html, css*
-* **responder_search** - A table with filters and search box. Technologies: *html, javascript, php*
+However, the search bar and table filters haven't been implemented yet. Your goal is to modify the javascript and/or backend in order to get the table to refresh on the fly as the user changes the textbox and dropdown values.
 
 ----
 
