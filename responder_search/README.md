@@ -1,16 +1,10 @@
 # Responder Search
 
-----
-
 This exercise focuses on javascript, ajax, and some php (but you're free to choose a different backend language if you want).  We provided a javascript file that fetches all responders and loads them into the table immediately after the page loads.  We also provided a minimal php class to provide the responder data. 
 
 However, the search bar and table filters haven't been implemented yet. Your goal is to modify the javascript and/or backend in order to get the table to refresh on the fly as the user changes the textbox and dropdown values.
 
-----
-
 ## License
-
-----
 
 Copyright 2013 Intermedix
  

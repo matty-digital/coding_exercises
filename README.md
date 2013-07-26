@@ -1,17 +1,11 @@
 # Coding Exercises
 
-----
-
 These exercises were designed to facilitate professional development and candidate recruitment.  Each exercise directory has a more in-depth readme.  Here's a quick overview:
 
 * **navigation** - A fluid, responsive page header. Technologies: *html, css*
 * **responder_search** - A table with filters and search box. Technologies: *html, javascript, php*
 
-----
-
 ## License
-
-----
 
 Copyright 2013 Intermedix
  

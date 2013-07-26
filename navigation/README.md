@@ -1,7 +1,5 @@
 # Navigation
 
-----
-
 This exercise focuses on html/css development for a fluid, responsive header.  screenshot.png shows what it's supposed to look like on a full sized monitor.  Some of the challenges that we faced during our implementation were:
 
 * supporting devices of all resolutions
@@ -10,11 +8,7 @@ This exercise focuses on html/css development for a fluid, responsive header.  s
 
 With those in mind, spend a little bit of time and see how closely you can implement the css and html for the header based on the provided screenshot.  We don't expect perfection, we just want to see how you approach the problem and what ways you can show off your front-end skills. 
 
-----
-
 ## License
-
-----
 
 Copyright 2013 Intermedix
  
