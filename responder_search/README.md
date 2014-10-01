@@ -11,9 +11,20 @@ yet.  Your goal is to modify the JavaScript and/or backend in order
 to get the table to refresh on the fly as the user changes the
 textbox and dropdown values.
 
+## Testing
+
+In addition to the application itself, there is a test.html file
+which loads QUnit and runs two JavaScript unit tests.  If you haven't
+written unit tests before, they're a great way to automate testing
+and prevent bugs being introduced.
+
+The first test in js/test.js checks that the App JavaScript loaded,
+and the second is for you to fill in.  Try to write a simple test or
+two to verify the things you implement work as expected.
+
 ## License
 
-Copyright 2013 Intermedix Corporation.
+Copyright 2014 Intermedix Corporation.
  
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
