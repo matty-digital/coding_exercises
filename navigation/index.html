@@ -1,26 +1,68 @@
 <!--
  Copyright 2013 Intermedix Corporation.
- 
+
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
  You may obtain a copy of the License at
- 
+
      http://www.apache.org/licenses/LICENSE-2.0
- 
+
  Unless required by applicable law or agreed to in writing, software
  distributed under the License is distributed on an "AS IS" BASIS,
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
  implied.  See the License for the specific language governing
  permissions and limitations under the License.
---> 
+-->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 		<title>Navigation Exercise</title>
+		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+		<link rel="stylesheet" href="./css/main.css">
 	</head>
 	<body>
+		<main>
+			<header>
+				<p>Welcome, <b>John Smith</b> (<a href="#">Preferences</a>|<a href="#">Log Out</a>)</p>
+			</header>
+			<div class="tabs">
+				<ul>
+					<li class="active">Patients</li>
+					<li>Incidents</li>
+					<li>Reports</li>
+					<li>Property</li>
+					<li>Location</li>
+				</ul>
+			</div>
+			<div class="mobile-nav">
+				<select>
+					<option value="patients">Patients</option>
+					<option value="incidents">Incidents</option>
+					<option value="reports">Reports</option>
+					<option value="property">Property</option>
+					<option value="location">Location</option>
+				</select>
+			</div>
+			<div class="subtabs">
+				<ul>
+					<li>Search</li>
+					<li class="selected">Groups</li>
+					<li>Register</li>
+				</ul>
+			</div>
 
+			<div class="icon-links">
+				<ul>
+					<li>
+						<a href="#">Profile</a>
+					</li>
+					<li>
+						<a href="#">Messages</a>
+					</li>
+				</ul>
+			</div>
+		</main>
 	</body>
 </html>
