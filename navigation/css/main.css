@@ -1,0 +1,143 @@
+body, html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-size: 100%;
+}
+
+main {
+  position: relative;
+}
+
+select {
+  width: 80%;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+header {
+  color: #353e54;
+  font-size: .8rem;
+}
+
+header p {
+  padding: 10px 10% 20px;
+}
+
+header a {
+  color: #1fa1ea;
+  text-decoration: none;
+}
+
+.tabs {
+  padding: 0 10%;
+}
+
+.tabs li {
+  border: 1px solid #ddd;
+  border-bottom: none;
+  background: #efefef;
+  color: #7d7779;
+  padding: 3px 1.5rem 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 30px;
+  font-weight: bold;
+}
+
+.tabs .active {
+  color: #fff;
+  background: #5990c9;
+  padding: 3px 1.5rem 5px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 30px;
+  border: none;
+  z-index: 2;
+}
+
+.subtabs {
+  background: #5990c9;
+  padding: 4px 10.5% 6px;
+}
+
+.subtabs li {
+  color: #fff;
+  font-size: .9rem;
+  font-weight: lighter;
+  margin-right: 15px;
+}
+
+.subtabs li:last-child {
+  margin-right: 0;
+}
+
+.subtabs .selected {
+  background: #4b7db0;
+  border-radius: 3px;
+  padding: 0 6px 2px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.icon-links {
+  position: absolute;
+  top: 45px;
+  right: 10%;
+}
+
+.icon-links ul li a {
+  text-decoration: none;
+  color: #888;
+  font-weight: lighter;
+  font-size: .8rem;
+}
+
+.icon-links ul li:first-child {
+  background: url('../images/icons.png') no-repeat left;
+  background-position: 0px 4px;
+  padding-left: 15px;
+  margin-right: 10px;
+}
+
+.icon-links ul li:last-child {
+  background: url('../images/icons.png') no-repeat left;
+  background-position: 0px 4px;
+  padding-left: 15px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 736px) {
+    .mobile-nav {
+      display: block;
+      text-align: center;
+    }
+    .tabs {
+      display: none;
+    }
+    .icon-links {
+      left: 10%;
+      top: 115%;
+    }
+}
+
+@media only screen
+  and (min-device-width: 1200px) {
+    .mobile-nav {
+      display: none;
+    }
+    .tabs {
+      display: block;
+    }
+}
+
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .icon-links {
+      right: 2%;
+    }
+}
